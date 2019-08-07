@@ -10,6 +10,7 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "team@erpnext.com"
 app_license = "MIT"
+doctype_js = {"doctype" : "public/js/doctype.js"}
 
 # Includes in <head>
 # ------------------
