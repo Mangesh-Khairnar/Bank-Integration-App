@@ -1,6 +1,6 @@
 ## Bank Integration
 
-Automated reports related to bank transaction
+Bulk payments processing via payment order
 
 #### License
 
