@@ -10,7 +10,7 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "team@erpnext.com"
 app_license = "MIT"
-doctype_js = {"doctype" : "public/js/doctype.js"}
+fixtures = ["Custom Field", "Custom Script"]
 
 # Includes in <head>
 # ------------------
@@ -120,4 +120,3 @@ doctype_js = {"doctype" : "public/js/doctype.js"}
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "bank_integration.event.get_events"
 # }
-

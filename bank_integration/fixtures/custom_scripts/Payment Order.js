@@ -1,4 +1,3 @@
-frappe.provide('erpnext.payment_order')
 frappe.ui.form.on('Payment Order', {
 	refresh: function(frm) {
 		if (frm.doc.docstatus==1 && frm.doc.payment_order_type==='Payment Entry') {
@@ -9,7 +8,7 @@ frappe.ui.form.on('Payment Order', {
 	},
 	generate_text_and_download_file: (frm) => {
 		return frappe.call({
-			method: "bank_integration.bank_integration.custom.bank_remittance.generate_report",
+			method: "bank_integration.bank_integration.bank_remittance.generate_report",
 			args: {
 				name: frm.doc.name
 			},
